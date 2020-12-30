@@ -1,43 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
-    />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
-
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
     <title>React App</title>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
-
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
-
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
+    <div class='introduction'>
+      <h1>Timothy Ference</h1>
+      <div class="about-me-container">
+        <p>
+          About Me...<br/>
+          I am a Eagle Scout and a firefighter who wants to start a career in the Computer Engineering
+          field. You're probobly wondering what does being a Eagle Scout and a firefighter have to do with
+          Software Engineering or Systems Engineering? Well I'll tell you, being a Eagle Scout showed
+          me how to lead others I had to be the Seinor Patrol Leader of the troop. This involves controlling
+          the other patrol leaders and organizing tranning sessions. Being a firefighter has taught me 
+          many things, like structure of command and the importance of communication. These traits are
+          embedded in me. To be a good Engineer, you need to communicate and take charge if needed and I have
+          the skills.
+        </p>
+        <div class="image-of-me-container">
+          <img src='./Images/IMG_1252.jpg' width='300' height='375'/>
+        </div>
+      </div>
+    </div>
+  <div class="languages-container">
+    <h2>Langueages</h2>
+    <div>
+      <ul>
+        <li><h3>Beginner</h3></li>
+        <li><h4>0) x86 Assembly</h4></li>
+        <li><h4>1) Swift</h4></li>
+        <li><h4>2) Go</h4></li>
+        <li><h4>3) Node.js</h4></li>
+        <li><h4>4) React</h4></li>
+      </ul>
+      <ul>
+        <li><h3>Intermediate</h3></li>
+        <li><h4>0) C#</h4></li>
+        <li><h4>1) SQL</h4></li>
+        <li><h4>2) PHP</h4></li>
+        <li><h4>3) JavaScript</h4></li>
+        <li><h4>4) Bash</h4></li>
+      </ul>
+      <ul>
+        <li><h3>Proficient</h3></li>
+        <li><h4>0) Java</h4></li>
+        <li><h4>1) C</h4></li>
+        <li><h4>2) Python</h4></li>
+        <li><h4>3) C++</h4></li>
+      </ul>
+    </div>
+  </div>
+    <div class="project-info">
+      <h1>Projects</h1>
+      <div id="project-card"></div>
+    </div>
   </body>
 </html>
