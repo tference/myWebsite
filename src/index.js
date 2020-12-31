@@ -26,11 +26,11 @@ class Projects extends React.Component {
                     <h4>Solving: O(V + E)</h4>
                     <h4>Space: O(n)</h4>
                     <p>
-                        Creating a random maze and having a BFS algorithm to solve the 
-                        shortest path between the source node and the target node. I used a Binary Search Tree
-                        to find the minimal key value which was the source node and a maximum key value which was
-                        the target node. To transverse the maze six equations was needed in order to move around.
-                        There was 4 transitional equations. Current node position is x, <br/><br/>
+                        Creating a random maze and having a BFS algorithm to solve the shortest path between the source node and the target node. 
+                        I used a Binary Search Tree to find the minimal key value and a maximum key value, which took O(log N) time and O(1) Space for each. 
+                        The two nodes were needed to identify the target and the source.  Transversing the maze took four similar equations. The 
+                        equations were needed because all nodes were in a Linked List, and to transverse a linked list, I needed to come up 
+                        with a mathematical solution. The current node position is x,, <br/><br/>
                         1) f(x) = x + 1 <br/>
                         2) f(x) = x + &#8730;(length of list)<br/>
                         3) f(x) = x - 1 <br/>
