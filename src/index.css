@@ -5,6 +5,7 @@ body {
 
 .introduction {
   background-image: linear-gradient(to right, rgb(83, 82, 82) 65%, white);
+  box-shadow: 0px 0px 5px 2px lightgreen;
   margin-left: auto;
   margin-right: auto;
 }
@@ -57,6 +58,7 @@ body {
   border-radius: 10px;
   margin-left: auto;
   margin-right: auto;
+  box-shadow: 0px 0px 5px 2px lightgreen;
 }
 
 .languages-container > h2 {
@@ -104,7 +106,7 @@ body {
 .project-info {
   width: 100%;
   height: 100%;
-  background: gray;
+  background: black;
   border-radius: 25px;
 }
 
@@ -113,8 +115,7 @@ body {
   height: 100%;
   text-align: center;
   font-weight: bold;
-  color: white;
-  background-color: red;
+  color: black;
   padding-top: 1%;
   padding-bottom: 1%;
   font-size: 2.5em;
@@ -124,7 +125,12 @@ body {
 #project-card{
   width: 100%;
   height: 100%;
-  background: indigo;
+  padding-bottom: 1%;
+}
+
+.project-info {
+  background-image: radial-gradient(circle, lightgray, gray, black);
+  box-shadow: 0px 0px 5px 2px lightgreen;
 }
 
 .projects{
@@ -132,7 +138,6 @@ body {
   height: 100%;
   display: flex;
   flex-direction: row;
-  background-color: green;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 5%;
@@ -140,7 +145,6 @@ body {
 
 .backButton-container {
   flex: 0 0 10%;
-  background-color: pink;
 }
 
 .backButton {
@@ -148,59 +152,97 @@ body {
   height: 100%;
   background: black;
   color: white;
+  font-size: 2em;
+  text-shadow: 1px 2px red;
+  z-index: 1;
+  box-shadow: 0px 0px 5px 2px lightgreen;
 }
 
-.displayProject {
-  
+.backButton:hover {
+  box-shadow: 0px 0px 10px 5px lightgreen;
 }
 
 .projectDescription {
-  background: lightseagreen;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
-}
-
-.aboutProject {
-  background:mediumslateblue;
+  background: lightgray;
 }
 
 .aboutProject > h3 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: bold;
   font-size: 1.5em;
-  color: white;
-  padding: 1%;
+  color: black;
   line-height: 0.5em;
+  margin-left: 1em;
 }
 
 .aboutProject > h4 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: bold;
   font-size: 1.5em;
-  color: white;
+  color: black;
   line-height: 0.5em;
-  padding-left: 1%;
+  margin-left: 1em;
 }
 
 .aboutProject > p {
-  color: white;
+  color: black;
   font-family: Georgia, 'Times New Roman', Times, serif;
-  padding-left: 1%;
   font-size: 1.5em;
   padding-bottom: 2%;
+  margin-left: 1em;
 }
 
 
 
 .projectImages {
   flex: 0 0 50%;
-  background: maroon;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@keyframes stretch {
+  0% {
+    z-index: 2;
+    transform: scale(1);
+  }
+  25% {
+    border-radius: 75px;
+  }
+  50% {
+    border-radius: 50px;
+  }
+  75% {
+    border-radius: 25px;
+  }
+  100% {
+    transform: scale(3);
+    border-radius: 0px;
+  }
+}
+
+.projectImages > img:hover{
+  border-radius: 100px;
+  animation-name: stretch;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-out;
+  animation-delay: 0s;
+  animation-direction: normal;
+  animation-iteration-count: 1;
+  animation-fill-mode:forwards;
+  animation-play-state: running;
+}
+
+.projectImages > img {
+  border-radius: 100px;
+  padding: 1%;
+  margin: auto;
 }
 
 .nextButton-container {
   flex: 0 0 10%;
-  background-color: pink;
 }
 
 .nextButton {
@@ -208,4 +250,12 @@ body {
   height: 100%;
   background: black;
   color: white;
+  z-index: 1;
+  box-shadow: 0px 0px 5px 2px lightgreen;
+  font-size: 2em;
+  text-shadow: 1px 2px red;
+}
+
+.nextButton:hover {
+  box-shadow: 0px 0px 10px 5px lightgreen;
 }
