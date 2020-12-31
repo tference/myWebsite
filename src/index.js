@@ -53,14 +53,12 @@ class Projects extends React.Component {
                 <div className="aboutProject">
                     <h3>Language: Python</h3>
                     <p>
-                        I was working with a doctor of Computer Science Dr. Boxang Dong researching a method called Unlearning
-                        for a threat detection project. This project was in python and my job was to create predictions using
-                        machine learning methods such as DNN and CNN. The begining of the project I knew nothing of machine learning,
-                        he gave me a book and I read the textbook in 3 months while creating example projects. To give me a little test
-                        at each section he would give me a dataset to pass into the algorithm. When I got the dataset if needed I would
-                        write scripts to prepare data to be entered into the algorithm. These scrpts needed to be as fast as possible becuase
-                        I was dealing with large sums of data. While I would show pictures I due to keeping the information and data safe
-                        for my professor I will now show anything.
+                        I worked with a computer science doctor, researching a method called Unlearning for a threat detection project. 
+                        This project was in python, and my job was to create predictions using machine learning methods such as DNN and CNN. 
+                        At the beginning of the project, I knew nothing of machine learning, he gave me a book, and I read the textbook in 3 months 
+                        while creating example projects. When I got a dataset, I would write scripts to prepare data to be entered into the algorithm if needed. 
+                        These scripts needed to be as fast as possible because I was dealing with large sums of data. While I would show pictures I due to keeping 
+                        the information and data safe for my professor, I will not show anything.
                     </p>
                 </div>
             </div>
