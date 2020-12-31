@@ -75,11 +75,11 @@ class Projects extends React.Component {
                     <h4>Search Time: O(n)</h4>
                     <h4>Space: O(1)</h4>
                     <p>
-                        This project was for a in class assignment for having a website communicate with a database.
-                        Database design was takin into heavy consideration to make sure the structure of the database was dynamic.
-                        I created some pages shown to the right and was incharge of the backend (PHP) commincating to the database.
-                        The project was based on a College Football shop site and the primary goal was database manipulation and 
-                        communication of data. The sole focus of this was to display and buy item for a client to purchuse.
+                        This project was for an in-class assignment for having a website communicate with a database. 
+                        The database design was taken into heavy consideration to make sure the structure of the database was dynamic. 
+                        I created some pages shown to the right and was in charge of the backend (PHP) communicating to the database. 
+                        The project was based on a College Football shop site, and the primary goal was database manipulation and communication of data. 
+                        The sole focus of this was to display and buy an item for a client to purchase.
                     </p>
                 </div>
                 <div className="projectImages">
